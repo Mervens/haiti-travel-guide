@@ -1,0 +1,135 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Quicksand", Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+   color: rgb(255,255,255);
+   text-shadow: 0px 0px 4px black; 
+   font-size: 35px;
+   margin-top: 20px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.site-seeing {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(rgb(100,0,230), rgb(160,30,0));
+    padding: 20px 30px;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+.site-title {
+    margin: none;
+}
+
+.the-guide {
+    background-image: url("./images/Haiti-Img7.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid blue;
+    border-radius: 20px;
+    margin: 10px 50px;
+    padding: 30px 50px;
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 4px black; 
+}
+
+#intro-text {
+    background-image: url("./images/Haiti-Img3.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: none;
+    padding: 200px 0px;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.guide-info {
+    display: flex;
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 4px black; 
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.site {
+    font-size: 24px;
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 4px black; 
+    padding: 15px;
+    margin-bottom: none;
+}
+
+.site-img {
+    height: auto;
+    width: 400px;
+    margin: 10px 30px;
+    margin-bottom: none;
+    border-radius: 40%;
+    border: 5px dotted red;
+}
+
+.role-descrip {
+    font-size: 28px;    
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 4px black; 
+
+}
+
+.descrip {
+    font-size: 22px;
+    margin: 20px 40px;
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 4px black; 
+}
+
+.selfie {
+    height: 500px;
+    width: auto;
+    padding: 10px;
+    border: 10px double;
+    border-radius: 10px;
+    color: white;
+}
+
+ul {
+    font-size: 20px;
+    color: rgb(255,255,255);
+    text-shadow: 0px 0px 4px black; 
+    list-style:none;
+}
